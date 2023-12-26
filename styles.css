@@ -1,0 +1,26 @@
+.counter {
+  display: flex;
+  align-items: baseline;
+  height: 80px;
+  width: 300px;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px dashed ;
+}
+.suminfo{
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+.counter > * {
+  height: 100%;
+  flex: 1;
+  font-size: 32px;
+}
+.text-content{
+  text-align: center;
+  display: block;
+  margin: auto;
+}
